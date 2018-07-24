@@ -24,6 +24,7 @@ get '/landmarks/:id/edit' do
 end
 
 post '/landmarks/:id' do
+  value="<%=@landmark.name%>"
 end
 
 
