@@ -24,7 +24,6 @@ get '/landmarks/:id/edit' do
 end
 
 post '/landmarks/:id' do
-  binding.pry
 end
 
 
