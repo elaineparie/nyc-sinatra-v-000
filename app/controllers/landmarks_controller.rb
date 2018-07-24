@@ -19,7 +19,6 @@ get '/landmarks/:id' do
 end
 
 get '/landmarks/:id/edit' do
-  binding.pry
   @landmark = Landmark.find(params[:id])
   erb :'/landmarks/edit'
 end
